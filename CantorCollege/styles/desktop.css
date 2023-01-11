@@ -1,0 +1,61 @@
+.container {
+    margin: auto;
+    max-width: 1200px;
+    min-width: 600px;
+  }
+header{
+  background-color: #663F1D;
+  font-size: 20px;
+  
+}
+header div{
+  font-size: 30px;
+  text-align: left;
+  padding-left: 5%;
+}
+
+header nav ul li a{
+  color: #ffffff;
+}
+nav li a:hover {
+  color: #73964D;
+}
+
+nav{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+main ul li{
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+nav ul li {
+  display: inline-block;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.onRight{
+  float: right;
+  width: 40%;
+}
+img{
+  height: auto;
+  max-width: 100%;
+}
+.footer{
+  margin-top: 15%;
+}
+.footerDif{
+  margin-top: 0%;
+}
+#footerMap{
+  margin-top: 25%;
+}
+#map{
+  float: right;
+  width: 60%;
+}
+ul li.hover:hover{
+  cursor:pointer
+}

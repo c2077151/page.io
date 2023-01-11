@@ -1,0 +1,155 @@
+.container{
+    width: 100%;
+}
+
+.title{
+    font: large, italic;
+}
+
+header{
+    background-color: #663F1D;
+    font-size: 20px;
+    color:#ffffff;
+  }
+  
+header div{
+  font-size: 30px;
+  text-align: center;
+  padding-right: 60px;
+}
+header nav ul li a{
+  color: #ffffff;
+  width: 100%;
+}
+nav li a:hover {
+  color: #73964D;
+}
+.bold{
+  font-weight: bold;
+}
+header div a{
+  text-decoration: none;
+  color: #ffffff;
+}
+nav ul li {
+  text-decoration: none;
+  text-align: center;
+  padding-right: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+ul{
+  list-style: none;
+}
+
+ul li::before {
+  content: "•";
+  color: #73964D;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+nav ul li::before{
+  content: "";
+}
+
+main{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+h2{
+  font-weight: bold;
+}
+.onRight{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px 15px 0;
+  width: 100%;
+}
+.onCenter{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px 15px 0;
+  width: 100%;
+  max-width: 1000px;
+}
+#home{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px 15px 0;
+  width: 80%;
+}
+img{
+  height: auto;
+  max-width: 100%;
+}
+#facility{
+  max-height: 350px;
+  width: auto;
+}
+body{
+  display: flex;
+  flex-direction: column;
+}
+footer{
+  margin-top: auto;
+  border-top: 1px solid #ccc;
+  margin: 20px 10px 10px 0;
+  font-size: 0.8em;
+  text-align: center;
+  font-style: italic;
+}
+#rules{
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+h4{
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+h5{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.listing{
+  font-size: 18px;
+  font-weight: bold;
+}
+.arial{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.italics{
+  font-style: italic;
+}
+ol.lowerRoman{
+  list-style-type: lower-roman;
+}
+ol.upperAlpha{
+  list-style-type: upper-alpha;
+}
+main a{
+  color: #73964D;
+  text-decoration: none;
+  
+}
+main a:hover{
+  text-decoration: underline;
+}
+#blue{
+  color: blue;
+  text-decoration: underline;
+}
+table tr td{
+  border: 1px solid;
+}
+table{
+  padding-bottom: 15px;
+}
